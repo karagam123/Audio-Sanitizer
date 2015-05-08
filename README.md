@@ -5,6 +5,7 @@
 *************************************************************************************************
                                 1. Introduction
 *************************************************************************************************
+
 	The Audio Sanitizer was created in order to both save resources and improve  Professor 
 Brian Tracey's cough detection algorithm. In order to test this algorithm there is a need for 
 clean cough data in the form of wav files. In this data collection process, it is very easy to 
@@ -18,6 +19,7 @@ extreme values, and extreme slew rate. The Sanitizer  extricates these errors fr
 *************************************************************************************************
                                 2. How It Works
 *************************************************************************************************
+	
 	The first step the Sanitizer takes is taking in a wav file and producing an array containing 
 the voltages of every frame. This is done using the python "WAV" module which allows us to get values
 from the wav file such as its frame rate, number of frames, number of channels, and other useful information.
